@@ -40,7 +40,7 @@ const Header = props => {
         color="secondary"
         className={clsx('app-header', {})}
         position={headerFixed ? 'fixed' : 'absolute'}
-        elevation={headerShadow ? 11 : 3}>
+        elevation={headerShadow ? 12 : 3}>
         {!props.isCollapsedLayout && <HeaderLogo />}
         <Box className="app-header-toolbar">
           <Hidden lgUp>
